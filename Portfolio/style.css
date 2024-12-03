@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(70, 62, 62);
+    font-family: Arial;
+margin: 0px ;
+padding: 0px;
+}
+
+
+.background{
+    background-color: black;
+    margin-left: 150px ;
+    margin-right: 150px;
+}
+
+.logo{
+    margin-left: 200px;
+    color:white
+}
+
+span{
+    color:deepskyblue;
+}
+
+
+.main{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+
+ul li a {
+    color:white; 
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 100px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.main li{
+    display: inline-block;
+}
+
+.sbtn{
+    margin-right: 150px;
+    background-color:deepskyblue;
+    padding: 8px;
+    border-radius: 15px;
+    width: 100px;
+    color:white;
+}
+
+
+
+
+.text{
+    margin-top: 200px;
+    display: flex;
+}
+
+.name{
+    color: white;
+    font-size: 36px;
+    margin-bottom: 0px;
+    
+}
+
+.shadow{
+    text-shadow: 5px 0px 10px;
+}
+
+.Developer{
+    color:deepskyblue; 
+    margin-top:  18px;
+    font-weight: 800;
+}
+
+
+.text{
+    margin-left: 200px;
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 0px;
+}
+
+
+.dfn{
+    width: 700px;
+    text-align: justify;
+    font-size:x-large;
+
+
+}
+
+div>img{
+    width: 300px;
+    height: 300px;
+    background-color:rgb(85, 85, 85);
+    border-radius: 50%;
+   box-shadow: 5px 5px 10px;
+
+}
+
+.talk{
+    background-color:deepskyblue;
+    padding: 8px;
+    border-radius: 15px;
+    width: 100px;
+    color:white;
+    margin: 20px;
+
+
+}
+
+#btn{
+    margin-left: 220px;
+
+}
+
+
+.Services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.boxes{
+    margin: 10px;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(85, 85, 85);
+    text-align: justify;
+    padding: 8px;
+    color: white;
+font-size: 22px;
+line-height: 36px;
+}
+
+
+i{
+    color: deepskyblue;
+    font-size: 36px;
+   margin: 10px;
+
+}
+
+footer{
+    background-color:rgb(85, 85, 85); 
+    color:white;
+    text-align: center;
+  padding: 15px;
+  margin: 30px;
+}
+
+.footer-container{
+    display: flex;
+    margin: 20px;
+}
+
+
+.footerbox{
+    color:white;
+    padding: 10px;
+}
